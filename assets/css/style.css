@@ -1,0 +1,81 @@
+/*Estilos em comum das páginas: index.html e hobby.html*/
+.center{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#menu li{
+    display: inline;
+    padding: 15px;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#menu li a:hover{
+    color:gray  
+}
+
+.p-30{
+    padding: 30px;
+}
+
+.br-50{
+    border-radius: 50%;
+}
+.wh-300-200{
+    width: 300px;
+    height:250px;
+}
+
+.tm-social{
+    width: 50px;
+    height:50px;
+}
+
+/*Estilos da página index.html */
+
+#color{
+    background-color: rgb(252, 223, 223);
+}
+#escolaridade li{
+    
+    padding: 5px;
+}
+
+#escolaridade li a{
+    text-decoration: none;
+    color:rgb(1, 58, 1);
+    font-size: 20px;
+}
+
+#escolaridade li a:hover{
+    color:rgb(93, 243, 125)  
+}
+
+/*Estilos da página  hobby.html*/
+.justify{
+    text-align: justify;
+}
