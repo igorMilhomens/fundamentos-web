@@ -53,11 +53,12 @@ function validaAssunto(){
     if(assunto.value.length > 100){
         txtAssunto.innerHTML = 'Texto muito grande, digite até 100 caracteres'
         txtAssunto.style.color = 'red'
-        txtAssunto.style.display = 'block'
+        //txtAssunto.style.display = 'block'
         assuntoOk = false
     }
     else{
-        txtAssunto.style.display = 'none'
+        //txtAssunto.style.display = 'none'
+        txtAssunto.innerHTML = ''
         assuntoOk = true
     }
 }
